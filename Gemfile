@@ -37,7 +37,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'administrate', '0.1.4'
+gem 'administrate', '0.1.5'
 
 gem 'sinatra', '1.1.4'
 gem 'festivaltts4r', '0.2.0'

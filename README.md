@@ -1,13 +1,6 @@
-# Black Duck CoPilot Rubygems/Travis CI Example
+# Rubygems/Travis CI Example
 
-[![Build Status](https://travis-ci.org/BlackDuckCoPilot/example-rubygems-travis.svg?branch=master)](https://travis-ci.org/BlackDuckCoPilot/example-rubygems-travis) [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/repos/BlackDuckCoPilot/example-rubygems-travis/branches/test/badge-risk.svg)](https://copilot.blackducksoftware.com/github/repos/BlackDuckCoPilot/example-rubygems-travis/branches/test)
-
-Shows a working setup for using Black Duck CoPilot to analyze the risk of project dependencies
+Shows a working setup for analyzing the risk of Ruby project dependencies
 
 ## Travis CI Setup
-The `.travis.yml` file has been modified to upload generated dependency data to CoPilot:
-
-```yaml
-after_success:
-  - bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
-```
+The `.travis.yml` file has been modified to upload generated dependency data to Scantist

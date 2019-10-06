@@ -44,7 +44,7 @@ gem 'administrate', '0.1.5'
 
 gem 'sinatra', '1.1.4'
 gem 'festivaltts4r', '0.2.0'
-gem 'spree', '3.1.7'
+gem 'spree', '3.7.1'
 gem 'authlogic', '1.4.3'
 gem 'devise_invitable', '1.3.4'
 gem 'rack-ssl', '1.0.0'
